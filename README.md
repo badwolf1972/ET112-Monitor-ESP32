@@ -2,6 +2,18 @@
 
 ESP32-based monitor for Victron ET112 Energy Meter with Home Assistant integration.
 
+## Model Compatibility
+This code has been tested and verified working with:
+- ET112-DIN.AV0.1X.S1.X.01 (UK Version)
+
+**Important Note:** If you use this code with a different ET112 variant, please create an issue to report:
+- Your ET112 model number
+- Whether the code worked or not
+- Any modifications needed
+- Your location/region
+
+This will help build a compatibility database for different ET112 variants.
+
 ## Features
 - Real-time power monitoring (Watts)
 - Total energy consumption (kWh)
