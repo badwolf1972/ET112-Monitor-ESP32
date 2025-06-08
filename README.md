@@ -1,4 +1,4 @@
-# ET112 Energy Meter Monitor
+# ET112-Monitor-ESP32
 
 ESP32-based monitor for Victron ET112 Energy Meter with Home Assistant integration.
 
@@ -7,11 +7,13 @@ ESP32-based monitor for Victron ET112 Energy Meter with Home Assistant integrati
 - Total energy consumption (kWh)
 - Home Assistant integration
 - Modbus RTU communication
+- Daily/Weekly/Monthly/Yearly energy tracking
 
 ## Hardware Requirements
 - ESP32
 - Victron ET112 Energy Meter
 - RS485 to TTL converter
+- Power supply for ESP32
 
 ## Installation
 1. Install required libraries:
