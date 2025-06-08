@@ -38,7 +38,7 @@ const char* longLivedToken = "YOUR_LONG_LIVED_TOKEN";
 // Modbus RTU Configuration
 #define TX_PIN 17          // ESP32 TX pin
 #define RX_PIN 16          // ESP32 RX pin
-#define BAUD_RATE 9600     // ET112 default baud rate
+#define BAUD_RATE 9600     // ET112 this was my default baud rate but yours maybe different
 
 ModbusMaster node;
 
